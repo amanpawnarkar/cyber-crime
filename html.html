@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    rel="stylesheet">
+    <title>Cyber Crime</title>
+    
+    <link href="stylesheet.css" type="text/css" rel="stylesheet" >
+</head>
+<body>
+    <div id="div1">
+        <div id="div2">
+            <p id="p1"><i class="fa-solid fa-phone"></i> 9359XXXXXX  <i class="fa-regular fa-envelope"></i> 1032230747MIT-WPU.in
+                <a href="https://web.whatsapp.com/" style="text-decoration: none; color: white"><i class="fa-brands fa-whatsapp"></i></a> 
+                <a href="https://www.instagram.com/accounts/login/" style="text-decoration: none; color: white"><i class="fa-brands fa-instagram"></i> </a>
+                <a href="https://www.facebook.com/home.php" style="text-decoration: none; color: white"><i class="fa-brands fa-facebook"></i></a> 
+                <a href="https://www.linkedin.com/" style="text-decoration: none; color: white"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://twitter.com/login" style="text-decoration: none; color: white"><i class="fa-brands fa-x-twitter"></i></p></a>
+        </div>
+        <div id="div3">
+            <img src="advocate logo.jpeg" width="95px" height="100px">
+            <p id="p2">Aman Pawnarkar
+                <a href="#p2" style="text-decoration: none; color: black;">Home</a>
+                <a  href="#2" style="text-decoration: none; color: black;">About Us</a>
+                <a>Practice</a>
+                <a href="#p6" style="text-decoration: none; color: black;">Contact Us</a>
+            </p>
+        </div>   
+        <div class="slideshow-container" style="margin-top: -50px;">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 5</div>
+              <img src="img1.jpeg" style="width:100%" height="500px">
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 5</div>
+              <img src="img2.jpeg" style="width:100%" height="500px">
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 5</div>
+              <img src="img3.jpeg" style="width:100%" height="500px">
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext"> 4/ 5</div>
+                <img src="img4.jpeg" style="width:100%" height="500px">
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="img5.jpeg" style="width:100%" height="500px">
+              </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center; margin-top: -500px;">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+              <span class="dot" onclick="currentSlide(4)"></span> 
+              <span class="dot" onclick="currentSlide(5)"></span> 
+            </div>
+            
+            <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+            </script><br><br>
+            <div id="2">
+              <h1 align="center" >About Us</h1>
+              <img src="img6-removebg-preview.png" width="500px" height="500px">
+              <p align="center" style="margin-top: -400px; margin-left: 400px;">
+                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br>
+                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br>
+                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br>
+                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br><br><br>
+                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br>
+                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br>
+                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br>
+                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br><br><br>
+                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br>
+                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br>
+                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br>
+              </p>
+            </div><br><br><br><br><br><br>
+
+              <div class="container">
+              <div class="row"></div>
+              <img id="img" src="img7.jpeg" alt="Notebook" style="width:1300px; height: 500px;">
+              
+                <div class="column">
+                  <div class="content1">
+                    <h4>Emergency Cases</h4>
+                    <p id="p4"> Contact For Quick Legal Assistance<br><br>Call Us Now<br><br>
+                      +91 93XX XXX XXX</p>
+                      <div class="vl"></div>
+                </div>
+                <div class="column">
+                  <div class="content2">
+                    <h4>Legal Cases</h4>
+                    <p id="p4"> XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br><br>
+                      <button class="btn"> FIX AN APPOINTMENT &#8594</button></p>
+                      <div class="vl1"></div>
+                </div>
+                <div class="column">
+                  <div class="content3">
+                    <h4>Working Hours</h4>
+                    <p id="p4" style="word-spacing: 15px;"> Monday-Friday 10.00am-9.00pm<br><br>Saturday 11.00am-6.00pm<br><br>
+                      Sunday 11.00am-6.00pm</p>
+  
+                </div>
+              </div>
+            </div>
+      
+            </div>
+            <footer>
+              <div align="center" id="div5">
+                <p id="p6"> Contact Details</p>
+                <div  id="div6">
+                  <a href="https://web.whatsapp.com/" style="text-decoration: none; color: black"><i class="fa-brands fa-whatsapp"></i></a> 
+                  <a href="https://www.instagram.com/accounts/login/" style="text-decoration: none; color: rgb(0, 0, 0)"><i class="fa-brands fa-instagram"></i> </a>
+                  <a href="https://www.facebook.com/home.php" style="text-decoration: none; color: rgb(0, 0, 0)"><i class="fa-brands fa-facebook"></i></a> 
+                  <a href="https://www.linkedin.com/" style="text-decoration: none; color: rgb(0, 0, 0)"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="https://twitter.com/login" style="text-decoration: none; color: rgb(5, 5, 5)"><i class="fa-brands fa-x-twitter"></i></p></a>
+              </div>
+              </div>
+              <div id="div6">
+
+              </div>
+            </footer>
+    </div>
+</body>
+</html>
